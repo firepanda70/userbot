@@ -59,7 +59,7 @@ docker compose up -d --build
   - ```alive``` - default status. Means chat is being processed
   - ```dead``` - this means that either sending the message failed or app recieved trigger to kill chat. Triggers described in 5-th item
   - ```finished``` - this means that chat finished successfully.
-5. Chat can be killed by message with text that contains ```прекрасно``` OR ```ожидать``` words. Only for chat with ```alive``` status and ```INITIAL```, ```FIRST``` or ```SECOND``` state.
+5. Chat can be killed by message with text that contains ```прекрасно``` OR ```ожидать``` words. Only for chats with ```alive``` status and ```INITIAL```, ```FIRST``` or ```SECOND``` state.
 
 ## Technologies
 - Python 3.12
