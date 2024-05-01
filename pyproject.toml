@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "userbot"
+version = "0.1.0"
+description = ""
+authors = ["Kochurov Mikhail <firepanda70@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+sqlalchemy = "^2.0.29"
+asyncpg = "^0.29.0"
+alembic = "^1.13.1"
+pyrogram = "^2.0.106"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
