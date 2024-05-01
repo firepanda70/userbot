@@ -17,10 +17,10 @@ TRIGGER_BY_STATE: dict[State, None | str] = {
 }
 
 DURATION_BY_STATE: dict[State, timedelta] = {
-    State.INITIAL: timedelta(minutes=1),
-    State.FIRST: timedelta(minutes=1),
-    State.SECOND: timedelta(minutes=1),
-    # State.INITIAL: timedelta(minutes=6),
-    # State.FIRST: timedelta(minutes=39),
-    # State.SECOND: timedelta(days=1, hours=2),
+    # State.INITIAL: timedelta(minutes=1),
+    # State.FIRST: timedelta(minutes=1),
+    # State.SECOND: timedelta(minutes=1),
+    State.INITIAL: timedelta(minutes=6),
+    State.FIRST: timedelta(minutes=39),
+    State.SECOND: timedelta(days=1, hours=2),
 }
